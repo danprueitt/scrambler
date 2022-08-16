@@ -1,0 +1,67 @@
+.App {
+    text-align: center;
+    height: 100vh;
+    background: #3d4554;
+}
+
+.App-header {
+    background-color: #282c34;
+    min-height: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-intro {
+    color: #FFF;
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+.App-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.App-form > textarea {
+    margin: 20px;
+    width: 80vw;
+    height: 200px;
+    border-radius: 5px;
+}
+
+.App-form-button {
+    background-color: #177bbd;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 5px;
+    outline: 0;
+    text-transform: uppercase;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.App-form-button:hover {
+    background-color: #177bbd;
+}
+
+.App-form-input-holder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.App-form-input-holder > input {
+    width: 80vw;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
