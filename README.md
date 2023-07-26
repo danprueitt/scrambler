@@ -1,6 +1,6 @@
 # Another Scrambler
 
-A simple tool to scramble text.
+A simple tool to scramble sentences.
 
 ## Getting started
 
@@ -12,7 +12,7 @@ Clone the repository and install the dependencies:
 
 ```bash
 git clone
-cd another-scrambler
+cd scrambler
 npm install
 ```
 
@@ -29,13 +29,13 @@ npm run start
 To build the application in a Docker container, use the following command:
 
 ```bash
-docker buildx build --load -t another-scrambler .
+docker buildx build --load -t scrambler .
 ```
 
 To run the build application in a Docker container, use the following command:
 
 ```bash
-docker run -p 3000:3000 another-scrambler
+docker run -p 3000:3000 scrambler
 ```
 
 ## License
