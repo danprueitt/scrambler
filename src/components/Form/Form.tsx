@@ -40,11 +40,11 @@ export default function Form() {
         <textarea className='App-input' placeholder='Enter sentence here'
                   onChange={handleInputChange} />
             <div className='App-form-radio-holder'>
-                <input type='radio' id='comma' name='delimiter' value=', ' onChange={(e) => {
+                <input type='radio' id='comma' name='seperator' value=', ' defaultChecked={true} onChange={(e) => {
                     setSeperator(e.target.value)
                 }} />
                 <label htmlFor='comma'>Comma ( , )</label>
-                <input type='radio' id='f_slash' name='delimiter' value=' / ' onChange={(e) => {
+                <input type='radio' id='f_slash' name='seperator' value=' / ' onChange={(e) => {
                     setSeperator(e.target.value)
                 }} />
                 <label htmlFor='f_slash'>Slash ( / )</label>
